@@ -1,0 +1,461 @@
+{
+  "input": {
+    "basis_of_record_filter": "MATERIAL_CITATION",
+    "kg_suitability_summary__reactable__page": 1,
+    "kg_suitability_summary__reactable__pageSize": 10,
+    "kg_suitability_summary__reactable__pages": 1,
+    "kg_suitability_summary__reactable__selected": null,
+    "kg_suitability_summary__reactable__sorted": null,
+    "kg_table__reactable__page": 1,
+    "kg_table__reactable__pageSize": 10,
+    "kg_table__reactable__pages": 1,
+    "kg_table__reactable__selected": null,
+    "kg_table__reactable__sorted": null,
+    "marker_id": "",
+    "occurrence_table__reactable__page": 1,
+    "occurrence_table__reactable__pageSize": 10,
+    "occurrence_table__reactable__pages": 1,
+    "occurrence_table__reactable__selected": null,
+    "occurrence_table__reactable__sorted": null,
+    "pb_suitability_summary__reactable__page": 1,
+    "pb_suitability_summary__reactable__pageSize": 10,
+    "pb_suitability_summary__reactable__pages": 1,
+    "pb_suitability_summary__reactable__selected": null,
+    "pb_suitability_summary__reactable__sorted": null,
+    "pb_table__reactable__page": 1,
+    "pb_table__reactable__pageSize": 10,
+    "pb_table__reactable__pages": 1,
+    "pb_table__reactable__selected": null,
+    "pb_table__reactable__sorted": null,
+    "ph_suitability_summary__reactable__page": 1,
+    "ph_suitability_summary__reactable__pageSize": 10,
+    "ph_suitability_summary__reactable__pages": 1,
+    "ph_suitability_summary__reactable__selected": null,
+    "ph_suitability_summary__reactable__sorted": null,
+    "ph_table__reactable__page": 1,
+    "ph_table__reactable__pageSize": 10,
+    "ph_table__reactable__pages": 1,
+    "ph_table__reactable__selected": null,
+    "ph_table__reactable__sorted": null,
+    "plot_occurrence_data": "TRUE",
+    "quality_control_filter": [
+      "NoXYold",
+      "XYnoYR"
+    ],
+    "reopen_upload_modal": 2,
+    "restore_clicked_ids": 0,
+    "sidebar_settings": "Occurrence Data",
+    "sum_table__reactable__page": 1,
+    "sum_table__reactable__pageSize": 10,
+    "sum_table__reactable__pages": 1,
+    "sum_table__reactable__selected": null,
+    "sum_table__reactable__sorted": null,
+    "tabs": "8 Suitability Maps",
+    "upload-close_modal": 1,
+    "upload-occurrence_data_uploaded": {
+      "name": [
+        "bral.xlsx"
+      ],
+      "size": [
+        3282707
+      ],
+      "type": [
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      ],
+      "datapath": [
+        "0.xlsx"
+      ]
+    }
+  },
+  "output": {
+    "kg_suitability_summary": {
+      "x": {
+        "tag": {
+          "name": "Reactable",
+          "attribs": {
+            "data": {
+              "message": [
+                "Placeholder"
+              ],
+              "value": [
+                1
+              ]
+            },
+            "columns": [
+              {
+                "id": "message",
+                "name": "message",
+                "type": "character"
+              },
+              {
+                "id": "value",
+                "name": "value",
+                "type": "numeric"
+              }
+            ],
+            "dataKey": "f40c686731e856636dd1d50180bcf835",
+            "static": false
+          },
+          "children": [
+
+          ]
+        },
+        "class": "reactR_markup"
+      },
+      "evals": [
+
+      ],
+      "jsHooks": [
+
+      ],
+      "deps": [
+
+      ]
+    },
+    "kg_table": {
+      "x": {
+        "tag": {
+          "name": "Reactable",
+          "attribs": {
+            "data": {
+              "message": [
+                "Placeholder"
+              ],
+              "value": [
+                1
+              ]
+            },
+            "columns": [
+              {
+                "id": "message",
+                "name": "message",
+                "type": "character"
+              },
+              {
+                "id": "value",
+                "name": "value",
+                "type": "numeric"
+              }
+            ],
+            "dataKey": "f40c686731e856636dd1d50180bcf835",
+            "static": false
+          },
+          "children": [
+
+          ]
+        },
+        "class": "reactR_markup"
+      },
+      "evals": [
+
+      ],
+      "jsHooks": [
+
+      ],
+      "deps": [
+
+      ]
+    },
+    "occurrence_table": {
+      "x": {
+        "tag": {
+          "name": "Reactable",
+          "attribs": {
+            "data": {
+              "message": [
+                "Placeholder"
+              ],
+              "value": [
+                1
+              ]
+            },
+            "columns": [
+              {
+                "id": "message",
+                "name": "message",
+                "type": "character"
+              },
+              {
+                "id": "value",
+                "name": "value",
+                "type": "numeric"
+              }
+            ],
+            "dataKey": "f40c686731e856636dd1d50180bcf835",
+            "static": false
+          },
+          "children": [
+
+          ]
+        },
+        "class": "reactR_markup"
+      },
+      "evals": [
+
+      ],
+      "jsHooks": [
+
+      ],
+      "deps": [
+
+      ]
+    },
+    "pb_suitability_summary": {
+      "x": {
+        "tag": {
+          "name": "Reactable",
+          "attribs": {
+            "data": {
+              "message": [
+                "Placeholder"
+              ],
+              "value": [
+                1
+              ]
+            },
+            "columns": [
+              {
+                "id": "message",
+                "name": "message",
+                "type": "character"
+              },
+              {
+                "id": "value",
+                "name": "value",
+                "type": "numeric"
+              }
+            ],
+            "dataKey": "f40c686731e856636dd1d50180bcf835",
+            "static": false
+          },
+          "children": [
+
+          ]
+        },
+        "class": "reactR_markup"
+      },
+      "evals": [
+
+      ],
+      "jsHooks": [
+
+      ],
+      "deps": [
+
+      ]
+    },
+    "pb_table": {
+      "x": {
+        "tag": {
+          "name": "Reactable",
+          "attribs": {
+            "data": {
+              "message": [
+                "Placeholder"
+              ],
+              "value": [
+                1
+              ]
+            },
+            "columns": [
+              {
+                "id": "message",
+                "name": "message",
+                "type": "character"
+              },
+              {
+                "id": "value",
+                "name": "value",
+                "type": "numeric"
+              }
+            ],
+            "dataKey": "f40c686731e856636dd1d50180bcf835",
+            "static": false
+          },
+          "children": [
+
+          ]
+        },
+        "class": "reactR_markup"
+      },
+      "evals": [
+
+      ],
+      "jsHooks": [
+
+      ],
+      "deps": [
+
+      ]
+    },
+    "ph_suitability_summary": {
+      "x": {
+        "tag": {
+          "name": "Reactable",
+          "attribs": {
+            "data": {
+              "message": [
+                "Placeholder"
+              ],
+              "value": [
+                1
+              ]
+            },
+            "columns": [
+              {
+                "id": "message",
+                "name": "message",
+                "type": "character"
+              },
+              {
+                "id": "value",
+                "name": "value",
+                "type": "numeric"
+              }
+            ],
+            "dataKey": "f40c686731e856636dd1d50180bcf835",
+            "static": false
+          },
+          "children": [
+
+          ]
+        },
+        "class": "reactR_markup"
+      },
+      "evals": [
+
+      ],
+      "jsHooks": [
+
+      ],
+      "deps": [
+
+      ]
+    },
+    "ph_table": {
+      "x": {
+        "tag": {
+          "name": "Reactable",
+          "attribs": {
+            "data": {
+              "message": [
+                "Placeholder"
+              ],
+              "value": [
+                1
+              ]
+            },
+            "columns": [
+              {
+                "id": "message",
+                "name": "message",
+                "type": "character"
+              },
+              {
+                "id": "value",
+                "name": "value",
+                "type": "numeric"
+              }
+            ],
+            "dataKey": "f40c686731e856636dd1d50180bcf835",
+            "static": false
+          },
+          "children": [
+
+          ]
+        },
+        "class": "reactR_markup"
+      },
+      "evals": [
+
+      ],
+      "jsHooks": [
+
+      ],
+      "deps": [
+
+      ]
+    },
+    "plot_can_usa": {
+      "src": "[image data hash: 1581e2f07e7be1af66a3e02b5ff8f4e0]",
+      "width": 800,
+      "height": 600,
+      "alt": "Suitability map for Canada and USA"
+    },
+    "sum_table": {
+      "x": {
+        "tag": {
+          "name": "Reactable",
+          "attribs": {
+            "data": {
+              "message": [
+                "Placeholder"
+              ],
+              "value": [
+                1
+              ]
+            },
+            "columns": [
+              {
+                "id": "message",
+                "name": "message",
+                "type": "character"
+              },
+              {
+                "id": "value",
+                "name": "value",
+                "type": "numeric"
+              }
+            ],
+            "dataKey": "f40c686731e856636dd1d50180bcf835",
+            "static": false
+          },
+          "children": [
+
+          ]
+        },
+        "class": "reactR_markup"
+      },
+      "evals": [
+
+      ],
+      "jsHooks": [
+
+      ],
+      "deps": [
+
+      ]
+    },
+    "upload-alert_area": {
+      "html": "<div class=\"alert alert-success\">\n  <i class=\"far fa-circle-check\" role=\"presentation\" aria-label=\"circle-check icon\"><\/i>\n   Upload complete. Your occurrence data (<b>bral.xlsx<\/b>) has been processed.\n<\/div>",
+      "deps": [
+        {
+          "name": "font-awesome",
+          "version": "6.5.2",
+          "src": {
+            "href": "font-awesome-6.5.2"
+          },
+          "meta": null,
+          "script": null,
+          "stylesheet": [
+            "css/all.min.css",
+            "css/v4-shims.min.css"
+          ],
+          "head": null,
+          "attachment": null,
+          "all_files": true
+        }
+      ]
+    },
+    "upload-footer_area": {
+      "html": "<button id=\"upload-close_modal\" type=\"button\" class=\"btn btn-default action-button\"><span class=\"action-label\">Continue<\/span><\/button>\n<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Close<\/button>",
+      "deps": [
+
+      ]
+    }
+  },
+  "export": {
+    "map_initialized": true,
+    "map_n_markers": 0
+  }
+}
