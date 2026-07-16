@@ -1,7 +1,9 @@
 {
   "input": {
     "leaflet_map_groups": [
-      "Precipitation Bands",
+      "Plant Hardiness Zones",
+      "Equator",
+      "Tropic of Cancer",
       "Points"
     ],
     "leaflet_map_marker_click": {

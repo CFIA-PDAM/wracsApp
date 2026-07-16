@@ -21,7 +21,7 @@ testthat::test_that("app loads and immediately shows the upload modal", {
 
 # ---- 2. occurrence data upload flow ----------------------------------------
 
-testthat::test_that("uploading a valid occurrence file completes the upload flow", {
+testthat::test_that("uploading an invalid occurrence file results in an error message", {
   app$upload_file(`upload-occurrence_data_uploaded` = "test_file.xlsx")
   app$wait_for_idle()
 
@@ -36,8 +36,8 @@ testthat::test_that("reopening the modal and clearing the file input resets the 
   app$expect_values()
 })
 
-testthat::test_that("uploading a second valid file replaces the previous upload", {
-  app$upload_file(`upload-occurrence_data_uploaded` = "bral.xlsx")
+testthat::test_that("uploading a valid file replaces the previous upload and updates the occurrence table", {
+  app$upload_file(`upload-occurrence_data_uploaded` = "psja.xlsx")
   app$wait_for_idle()
 
   app$expect_values()
@@ -56,6 +56,27 @@ testthat::test_that("reopening then closing the modal without changing the file 
   app$set_inputs(`upload-occurrence_data_uploaded` = character(0))
   app$wait_for_idle()
   app$expect_values()
+  app$wait_for_idle()
+
+  app$expect_values()
+})
+
+testthat::test_that("reopening the modal results in a file-upload-ready state", {
+  app$click("reopen_upload_modal")
+  app$wait_for_idle()
+
+  app$expect_values()
+})
+
+testthat::test_that("uploading a second valid file replaces the previous upload", {
+  app$upload_file(`upload-occurrence_data_uploaded` = "bral.xlsx")
+  app$wait_for_idle()
+
+  app$expect_values()
+})
+
+testthat::test_that("closing the modal via the footer button hides it and shows the updated occurrence table", {
+  app$click("upload-close_modal")
   app$wait_for_idle()
 
   app$expect_values()
@@ -150,7 +171,7 @@ testthat::test_that("the Map tab can be selected", {
   app$wait_for_idle()
 
   testthat::expect_equal(app$get_value(input = "tabs"), "3 Map")
-  app$expect_values()
+  app$expect_values(input = c("leaflet_map_zoom", "leaflet_map_groups"))
 })
 
 testthat::test_that("toggling the Precipitation Bands and Points overlay groups updates the map", {
@@ -159,17 +180,17 @@ testthat::test_that("toggling the Precipitation Bands and Points overlay groups 
     allow_no_input_binding_ = TRUE
   )
   app$wait_for_idle()
-  app$expect_values()
+  app$expect_values(input = c("leaflet_map_zoom", "leaflet_map_groups"))
 
   app$set_inputs(
     leaflet_map_groups = c("Precipitation Bands", "Points"),
     allow_no_input_binding_ = TRUE
   )
   app$wait_for_idle()
-  app$expect_values()
+  app$expect_values(input = c("leaflet_map_zoom", "leaflet_map_groups"))
 })
 
-# ---- 8. map: viewport interactions (bounds/center/zoom) --------------------
+# ---- 8. map: viewport interactions (bounds/centre/zoom) --------------------
 
 testthat::test_that("panning and zooming the map updates the tracked viewport", {
   app$set_inputs(
@@ -183,7 +204,7 @@ testthat::test_that("panning and zooming the map updates the tracked viewport", 
   )
   app$set_inputs(leaflet_map_zoom = 4, allow_no_input_binding_ = TRUE)
   app$wait_for_idle()
-  app$expect_values()
+  app$expect_values(input = c("leaflet_map_zoom", "leaflet_map_groups"))
 
   app$set_inputs(
     leaflet_map_bounds = base::list(
@@ -203,7 +224,7 @@ testthat::test_that("panning and zooming the map updates the tracked viewport", 
   )
   app$set_inputs(leaflet_map_zoom = 3, allow_no_input_binding_ = TRUE)
   app$wait_for_idle()
-  app$expect_values()
+  app$expect_values(input = c("leaflet_map_zoom", "leaflet_map_groups"))
 
   app$set_inputs(
     leaflet_map_bounds = base::list(
@@ -222,7 +243,7 @@ testthat::test_that("panning and zooming the map updates the tracked viewport", 
     allow_no_input_binding_ = TRUE
   )
   app$wait_for_idle()
-  app$expect_values()
+  app$expect_values(input = c("leaflet_map_zoom", "leaflet_map_groups"))
 })
 
 # ---- 9. map: and marker hover/click/mouseout events ----------------------------
@@ -239,7 +260,13 @@ testthat::test_that("hovering, clicking, and un-hovering a marker registers the 
     allow_no_input_binding_ = TRUE
   )
   app$wait_for_idle()
-  app$expect_values()
+  app$expect_values(
+    input = c(
+      "leaflet_map_zoom",
+      "leaflet_map_groups",
+      "leaflet_map_marker_mouseover"
+    )
+  )
 
   app$set_inputs(
     leaflet_map_marker_click = base::list(
@@ -262,7 +289,15 @@ testthat::test_that("hovering, clicking, and un-hovering a marker registers the 
     allow_no_input_binding_ = TRUE
   )
   app$wait_for_idle()
-  app$expect_values()
+  app$expect_values(
+    input = c(
+      "leaflet_map_zoom",
+      "leaflet_map_groups",
+      "leaflet_map_marker_mouseover",
+      "leaflet_map_marker_click",
+      "leaflet_map_marker_mouseout"
+    )
+  )
 })
 
 # ---- 10. map: base layer switching + reference overlays ---------------------
@@ -273,7 +308,15 @@ testthat::test_that("adding the Equator overlay to the Precipitation Bands base 
     allow_no_input_binding_ = TRUE
   )
   app$wait_for_idle()
-  app$expect_values()
+  app$expect_values(
+    input = c(
+      "leaflet_map_zoom",
+      "leaflet_map_groups",
+      "leaflet_map_marker_mouseover",
+      "leaflet_map_marker_click",
+      "leaflet_map_marker_mouseout"
+    )
+  )
 })
 
 testthat::test_that("adding the Tropic of Cancer overlay works alongside the Equator", {
@@ -287,7 +330,15 @@ testthat::test_that("adding the Tropic of Cancer overlay works alongside the Equ
     allow_no_input_binding_ = TRUE
   )
   app$wait_for_idle()
-  app$expect_values()
+  app$expect_values(
+    input = c(
+      "leaflet_map_zoom",
+      "leaflet_map_groups",
+      "leaflet_map_marker_mouseover",
+      "leaflet_map_marker_click",
+      "leaflet_map_marker_mouseout"
+    )
+  )
 })
 
 testthat::test_that("switching the base layer to Plant Hardiness Zones keeps overlays intact", {
@@ -301,7 +352,15 @@ testthat::test_that("switching the base layer to Plant Hardiness Zones keeps ove
     allow_no_input_binding_ = TRUE
   )
   app$wait_for_idle()
-  app$expect_values()
+  app$expect_values(
+    input = c(
+      "leaflet_map_zoom",
+      "leaflet_map_groups",
+      "leaflet_map_marker_mouseover",
+      "leaflet_map_marker_click",
+      "leaflet_map_marker_mouseout"
+    )
+  )
 })
 
 testthat::test_that("switching the base layer to Köppen-Geiger Levels keeps overlays intact", {
@@ -315,5 +374,13 @@ testthat::test_that("switching the base layer to Köppen-Geiger Levels keeps ove
     allow_no_input_binding_ = TRUE
   )
   app$wait_for_idle()
-  app$expect_values()
+  app$expect_values(
+    input = c(
+      "leaflet_map_zoom",
+      "leaflet_map_groups",
+      "leaflet_map_marker_mouseover",
+      "leaflet_map_marker_click",
+      "leaflet_map_marker_mouseout"
+    )
+  )
 })

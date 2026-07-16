@@ -2,6 +2,8 @@
   "input": {
     "leaflet_map_groups": [
       "Precipitation Bands",
+      "Equator",
+      "Tropic of Cancer",
       "Points"
     ],
     "leaflet_map_marker_click": {
