@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+/.quarto/
+*.tif
+*tiles
+*tiles/
+colours_*
+
+rsconnect

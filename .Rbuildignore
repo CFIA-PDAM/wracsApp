@@ -1,0 +1,15 @@
+^renv$
+^renv\.lock$
+^\.Rproj\.user$
+^\.Rhistory$
+^\.RData$
+^\.Ruserdata$
+^\.quarto$
+^\.quarto/
+\.tif$
+tiles$
+tiles/
+^colours_.*
+^rsconnect$
+^rsconnect/
+^data-raw$

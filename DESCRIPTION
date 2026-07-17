@@ -1,0 +1,64 @@
+Package: botanyGeospatialWRA
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+License: file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.0.0
+Imports: 
+    base,
+    bsicons,
+    bslib,
+    climateSuitabilityWRA,
+    crew,
+    datasets,
+    DBI,
+    dplyr,
+    fontawesome,
+    fs,
+    gdalraster,
+    glue,
+    graphics,
+    grDevices,
+    gt,
+    here,
+    htmltools,
+    htmlwidgets,
+    leaflet,
+    mapgl,
+    markdown,
+    methods,
+    pak,
+    pkgload,
+    pmtiles,
+    profvis,
+    purrr,
+    qs2,
+    reactable,
+    readxl,
+    renv,
+    rmarkdown,
+    rnaturalearth,
+    rnaturalearthhires,
+    RSQLite,
+    rstudioapi,
+    sf,
+    shiny,
+    shinybusy,
+    shinyjs,
+    shinytest2,
+    shinyWidgets,
+    stats,
+    tarchetypes,
+    targets,
+    terra,
+    testthat,
+    tibble,
+    utils,
+    visNetwork,
+    watcher
+Suggests:
+    writexl
