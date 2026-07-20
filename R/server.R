@@ -7,31 +7,67 @@ server <- function(input, output, session) {
     reopen_trigger = shiny::reactive(input$reopen_upload_modal)
   )
 
+  occurrence_data <- shiny::reactiveVal()
+  shiny::observe({
+    shiny::req(upload$data())
+    occurrence_data(upload$data())
+  })
+
   # ---- Placeholders ----
   dummy_df <- data.frame(
     message = "Placeholder",
     value = 1
   )
 
+  # ---- 1. Occurrence Table -------------------------------------------------------
+
   output$occurrence_table <- reactable::renderReactable({
     reactable::reactable(dummy_df)
   })
+
+  shiny::observe({
+    shiny::req(occurrence_data())
+
+    output$occurrence_table <- reactable::renderReactable({
+      reactable::reactable(
+        data = occurrence_data(),
+        striped = TRUE,
+        filterable = TRUE,
+        resizable = TRUE
+      )
+    })
+  })
+
+  # Update the occurrence table as the occurrence data is filtered
+  shiny::observe({
+    reactable::updateReactable("occurrence_table", occurrence_data())
+  })
+
+  # ---- 2. Summary Table -------------------------------------------------------
 
   output$sum_table <- reactable::renderReactable({
     reactable::reactable(dummy_df)
   })
 
+  # ---- 4. KG Table -------------------------------------------------------
+
   output$kg_table <- reactable::renderReactable({
     reactable::reactable(dummy_df)
   })
+
+  # ---- 5. PH Table -------------------------------------------------------
 
   output$ph_table <- reactable::renderReactable({
     reactable::reactable(dummy_df)
   })
 
+  # ---- 6. PB Table -------------------------------------------------------
+
   output$pb_table <- reactable::renderReactable({
     reactable::reactable(dummy_df)
   })
+
+  # ---- 7. Suitability Summaries -------------------------------------------------------
 
   output$kg_suitability_summary <- reactable::renderReactable({
     reactable::reactable(dummy_df)
@@ -49,6 +85,8 @@ server <- function(input, output, session) {
     map_n_markers = 0,
     map_initialized = TRUE
   )
+
+  # ---- 8. Plots -------------------------------------------------------
 
   output$plot_can_usa <- shiny::renderImage(
     {
@@ -84,6 +122,8 @@ server <- function(input, output, session) {
     "export_analysis_files",
     suspendWhenHidden = FALSE
   )
+
+  # ---- 3. Map -------------------------------------------------------
 
   output$leaflet_map <- leaflet::renderLeaflet({
     pb_pal <- create_leaflet_palette(pal_pb_hex)

@@ -1,0 +1,31 @@
+{
+  "input": {
+    "leaflet_map_groups": [
+      "Precipitation Bands",
+      "Equator",
+      "Points"
+    ],
+    "leaflet_map_marker_click": {
+      "id": "b",
+      ".nonce": 0.747359637167649,
+      "group": "Points",
+      "lat": 30,
+      "lng": 20
+    },
+    "leaflet_map_marker_mouseout": {
+      "id": "b",
+      ".nonce": 0.53220830030355,
+      "group": "Points",
+      "lat": 30,
+      "lon": 20
+    },
+    "leaflet_map_marker_mouseover": {
+      "id": "b",
+      ".nonce": 0.233138558795347,
+      "group": "Points",
+      "lat": 30,
+      "lng": 20
+    },
+    "leaflet_map_zoom": 3
+  }
+}

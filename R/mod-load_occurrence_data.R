@@ -64,7 +64,11 @@ ingest_occurrence_data_server <- function(id, reopen_trigger = NULL) {
       state and any progress with the old file will be lost.",
           "<br><br>"
         )),
-        shiny::fileInput(ns("occurrence_data_uploaded"), NULL, accept = ".xlsx"),
+        shiny::fileInput(
+          ns("occurrence_data_uploaded"),
+          NULL,
+          accept = ".xlsx"
+        ),
         shiny::uiOutput(ns("alert_area")),
         title = "Geospatial Weed Risk Assessment Tool",
         footer = shiny::uiOutput(ns("footer_area"), inline = TRUE),
@@ -105,7 +109,7 @@ ingest_occurrence_data_server <- function(id, reopen_trigger = NULL) {
       )
       missing_columns <- setdiff(expected_names, names(df))
 
-      if (length(missing_columns) > 0) {
+      if (!vctrs::vec_is_empty(missing_columns)) {
         state$failed_file_name <- input$occurrence_data_uploaded$name
         state$missing_columns_list <- missing_columns
         state$upload_failed <- TRUE
@@ -114,9 +118,18 @@ ingest_occurrence_data_server <- function(id, reopen_trigger = NULL) {
         return()
       }
 
+      shiny::showNotification(
+        ui = "Adding QC codes and covariate data",
+        duration = NULL,
+        id = "notification_processing_data",
+        type = "message"
+      )
+
       state$upload_failed <- FALSE
-      state$occurrence_data <- input$occurrence_data_uploaded$datapath
+      state$occurrence_data <- df
       state$upload_ready <- TRUE
+
+      shiny::removeNotification(id = "notification_processing_data")
     })
 
     shiny::observeEvent(input$close_modal, {

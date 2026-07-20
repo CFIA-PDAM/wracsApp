@@ -1,0 +1,1880 @@
+{
+  "input": {
+    "basis_of_record_filter": null,
+    "marker_id": "",
+    "occurrence_table__reactable__page": 1,
+    "occurrence_table__reactable__pageSize": 10,
+    "occurrence_table__reactable__pages": 1,
+    "occurrence_table__reactable__selected": null,
+    "occurrence_table__reactable__sorted": null,
+    "plot_occurrence_data": "FALSE",
+    "quality_control_filter": null,
+    "reopen_upload_modal": 3,
+    "restore_clicked_ids": 0,
+    "sidebar_settings": "Occurrence Data",
+    "tabs": "1 Occurrence Data",
+    "upload-close_modal": 0,
+    "upload-occurrence_data_uploaded": {
+      "name": [
+        "bral.xlsx"
+      ],
+      "size": [
+        3282707
+      ],
+      "type": [
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      ],
+      "datapath": [
+        "0.xlsx"
+      ]
+    }
+  },
+  "output": {
+    "occurrence_table": {
+      "x": {
+        "tag": {
+          "name": "Reactable",
+          "attribs": {
+            "data": {
+              "gbifID": [
+                997910269
+              ],
+              "accessRights": [
+                "Free usage"
+              ],
+              "bibliographicCitation": [
+                null
+              ],
+              "language": [
+                null
+              ],
+              "license": [
+                "CC0_1_0"
+              ],
+              "modified": [
+                "2014-08-10T18:53:41Z"
+              ],
+              "publisher": [
+                null
+              ],
+              "references": [
+                null
+              ],
+              "rightsHolder": [
+                "Rickard Z. Sundin Jooste"
+              ],
+              "type": [
+                null
+              ],
+              "institutionID": [
+                null
+              ],
+              "collectionID": [
+                null
+              ],
+              "datasetID": [
+                "urn:lsid:swedishlifewatch.se:dataprovider:Artportalen"
+              ],
+              "institutionCode": [
+                "SLU Artdatabanken"
+              ],
+              "collectionCode": [
+                "Artportalen"
+              ],
+              "datasetName": [
+                "Artportalen"
+              ],
+              "ownerInstitutionCode": [
+                "SLU Artdatabanken"
+              ],
+              "basisOfRecord": [
+                "HUMAN_OBSERVATION"
+              ],
+              "informationWithheld": [
+                null
+              ],
+              "dataGeneralizations": [
+                null
+              ],
+              "dynamicProperties": [
+                null
+              ],
+              "occurrenceID": [
+                "urn:lsid:artportalen.se:sighting:16468843"
+              ],
+              "catalogNumber": [
+                16468843
+              ],
+              "recordNumber": [
+                null
+              ],
+              "recordedBy": [
+                "Rickard Z. Sundin Jooste"
+              ],
+              "recordedByID": [
+                null
+              ],
+              "individualCount": [
+                null
+              ],
+              "organismQuantity": [
+                null
+              ],
+              "organismQuantityType": [
+                null
+              ],
+              "sex": [
+                null
+              ],
+              "lifeStage": [
+                null
+              ],
+              "reproductiveCondition": [
+                null
+              ],
+              "caste": [
+                null
+              ],
+              "behavior": [
+                null
+              ],
+              "vitality": [
+                null
+              ],
+              "establishmentMeans": [
+                null
+              ],
+              "degreeOfEstablishment": [
+                null
+              ],
+              "pathway": [
+                null
+              ],
+              "georeferenceVerificationStatus": [
+                null
+              ],
+              "occurrenceStatus": [
+                "PRESENT"
+              ],
+              "preparations": [
+                null
+              ],
+              "disposition": [
+                null
+              ],
+              "associatedOccurrences": [
+                null
+              ],
+              "associatedReferences": [
+                null
+              ],
+              "associatedSequences": [
+                null
+              ],
+              "associatedTaxa": [
+                null
+              ],
+              "otherCatalogNumbers": [
+                null
+              ],
+              "occurrenceRemarks": [
+                null
+              ],
+              "organismID": [
+                null
+              ],
+              "organismName": [
+                null
+              ],
+              "organismScope": [
+                null
+              ],
+              "associatedOrganisms": [
+                null
+              ],
+              "previousIdentifications": [
+                null
+              ],
+              "organismRemarks": [
+                null
+              ],
+              "materialEntityID": [
+                null
+              ],
+              "materialEntityRemarks": [
+                null
+              ],
+              "verbatimLabel": [
+                null
+              ],
+              "materialSampleID": [
+                null
+              ],
+              "eventID": [
+                "urn:lsid:swedishlifewatch.se:dataprovider:Artportalen:event:9172213234302865806"
+              ],
+              "parentEventID": [
+                null
+              ],
+              "eventType": [
+                null
+              ],
+              "fieldNumber": [
+                null
+              ],
+              "eventDate": [
+                "2014-08-10T00:00:00Z"
+              ],
+              "eventTime": [
+                null
+              ],
+              "startDayOfYear": [
+                222
+              ],
+              "endDayOfYear": [
+                222
+              ],
+              "year": [
+                2014
+              ],
+              "month": [
+                8
+              ],
+              "day": [
+                10
+              ],
+              "verbatimEventDate": [
+                "2014-08-10T00:00:00Z"
+              ],
+              "habitat": [
+                null
+              ],
+              "samplingProtocol": [
+                null
+              ],
+              "sampleSizeValue": [
+                null
+              ],
+              "sampleSizeUnit": [
+                null
+              ],
+              "samplingEffort": [
+                null
+              ],
+              "fieldNotes": [
+                null
+              ],
+              "eventRemarks": [
+                null
+              ],
+              "locationID": [
+                "urn:lsid:artportalen.se:site:110396"
+              ],
+              "higherGeographyID": [
+                null
+              ],
+              "higherGeography": [
+                null
+              ],
+              "continent": [
+                "EUROPE"
+              ],
+              "waterBody": [
+                null
+              ],
+              "islandGroup": [
+                null
+              ],
+              "island": [
+                null
+              ],
+              "countryCode": [
+                "SE"
+              ],
+              "stateProvince": [
+                "SÃ¶dermanland"
+              ],
+              "county": [
+                "Stockholm"
+              ],
+              "municipality": [
+                "Stockholm"
+              ],
+              "locality": [
+                "Skanskvarns koloniomrÃ¥de, Srm"
+              ],
+              "verbatimLocality": [
+                "Skanskvarns koloniomrÃ¥de, Srm"
+              ],
+              "verbatimElevation": [
+                null
+              ],
+              "verticalDatum": [
+                null
+              ],
+              "verbatimDepth": [
+                null
+              ],
+              "minimumDistanceAboveSurfaceInMeters": [
+                null
+              ],
+              "maximumDistanceAboveSurfaceInMeters": [
+                null
+              ],
+              "locationAccordingTo": [
+                null
+              ],
+              "locationRemarks": [
+                null
+              ],
+              "decimalLatitude": [
+                59.3005
+              ],
+              "decimalLongitude": [
+                18.07314
+              ],
+              "coordinateUncertaintyInMeters": [
+                100
+              ],
+              "coordinatePrecision": [
+                null
+              ],
+              "pointRadiusSpatialFit": [
+                null
+              ],
+              "verbatimCoordinateSystem": [
+                null
+              ],
+              "verbatimSRS": [
+                "EPSG:3857"
+              ],
+              "footprintWKT": [
+                null
+              ],
+              "footprintSRS": [
+                null
+              ],
+              "footprintSpatialFit": [
+                null
+              ],
+              "georeferencedBy": [
+                null
+              ],
+              "georeferencedDate": [
+                null
+              ],
+              "georeferenceProtocol": [
+                null
+              ],
+              "georeferenceSources": [
+                null
+              ],
+              "georeferenceRemarks": [
+                null
+              ],
+              "geologicalContextID": [
+                null
+              ],
+              "earliestEonOrLowestEonothem": [
+                null
+              ],
+              "latestEonOrHighestEonothem": [
+                null
+              ],
+              "earliestEraOrLowestErathem": [
+                null
+              ],
+              "latestEraOrHighestErathem": [
+                null
+              ],
+              "earliestPeriodOrLowestSystem": [
+                null
+              ],
+              "latestPeriodOrHighestSystem": [
+                null
+              ],
+              "earliestEpochOrLowestSeries": [
+                null
+              ],
+              "latestEpochOrHighestSeries": [
+                null
+              ],
+              "earliestAgeOrLowestStage": [
+                null
+              ],
+              "latestAgeOrHighestStage": [
+                null
+              ],
+              "lowestBiostratigraphicZone": [
+                null
+              ],
+              "highestBiostratigraphicZone": [
+                null
+              ],
+              "lithostratigraphicTerms": [
+                null
+              ],
+              "group": [
+                null
+              ],
+              "formation": [
+                null
+              ],
+              "member": [
+                null
+              ],
+              "bed": [
+                null
+              ],
+              "identificationID": [
+                null
+              ],
+              "verbatimIdentification": [
+                null
+              ],
+              "identificationQualifier": [
+                null
+              ],
+              "typeStatus": [
+                null
+              ],
+              "identifiedBy": [
+                null
+              ],
+              "identifiedByID": [
+                null
+              ],
+              "dateIdentified": [
+                null
+              ],
+              "identificationReferences": [
+                null
+              ],
+              "identificationVerificationStatus": [
+                "Unvalidated"
+              ],
+              "identificationRemarks": [
+                null
+              ],
+              "taxonID": [
+                "urn:lsid:dyntaxa.se:Taxon:221509"
+              ],
+              "scientificNameID": [
+                null
+              ],
+              "acceptedNameUsageID": [
+                "urn:lsid:dyntaxa.se:Taxon:221509"
+              ],
+              "parentNameUsageID": [
+                "urn:lsid:dyntaxa.se:Taxon:1006108"
+              ],
+              "originalNameUsageID": [
+                null
+              ],
+              "nameAccordingToID": [
+                null
+              ],
+              "namePublishedInID": [
+                null
+              ],
+              "taxonConceptID": [
+                null
+              ],
+              "scientificName": [
+                "Bryonia alba L."
+              ],
+              "acceptedNameUsage": [
+                null
+              ],
+              "parentNameUsage": [
+                null
+              ],
+              "originalNameUsage": [
+                null
+              ],
+              "nameAccordingTo": [
+                null
+              ],
+              "namePublishedIn": [
+                null
+              ],
+              "namePublishedInYear": [
+                null
+              ],
+              "higherClassification": [
+                "Biota | Plantae | Viridiplantae | Streptophyta | Embryophyta | Tracheophyta | Euphyllophytina | Spermatophytae | Angiospermae | Magnoliopsida | Cucurbitales | Cucurbitaceae | Bryonia"
+              ],
+              "kingdom": [
+                "Plantae"
+              ],
+              "phylum": [
+                "Tracheophyta"
+              ],
+              "class": [
+                "Magnoliopsida"
+              ],
+              "order": [
+                "Cucurbitales"
+              ],
+              "superfamily": [
+                null
+              ],
+              "family": [
+                "Cucurbitaceae"
+              ],
+              "subfamily": [
+                null
+              ],
+              "tribe": [
+                null
+              ],
+              "subtribe": [
+                null
+              ],
+              "genus": [
+                "Bryonia"
+              ],
+              "genericName": [
+                "Bryonia"
+              ],
+              "subgenus": [
+                null
+              ],
+              "infragenericEpithet": [
+                null
+              ],
+              "specificEpithet": [
+                "alba"
+              ],
+              "infraspecificEpithet": [
+                null
+              ],
+              "cultivarEpithet": [
+                null
+              ],
+              "taxonRank": [
+                "SPECIES"
+              ],
+              "verbatimTaxonRank": [
+                null
+              ],
+              "vernacularName": [
+                "svart hundrova"
+              ],
+              "nomenclaturalCode": [
+                null
+              ],
+              "taxonomicStatus": [
+                "ACCEPTED"
+              ],
+              "nomenclaturalStatus": [
+                "valid"
+              ],
+              "taxonRemarks": [
+                null
+              ],
+              "datasetKey": [
+                "38b4c89f-584c-41bb-bd8f-cd1def33e92f"
+              ],
+              "publishingCountry": [
+                "SE"
+              ],
+              "lastInterpreted": [
+                "2025-03-19T03:17:25.389Z"
+              ],
+              "elevation": [
+                null
+              ],
+              "elevationAccuracy": [
+                null
+              ],
+              "depth": [
+                null
+              ],
+              "depthAccuracy": [
+                null
+              ],
+              "distanceFromCentroidInMeters": [
+                null
+              ],
+              "issue": [
+                "TAXON_MATCH_TAXON_ID_IGNORED"
+              ],
+              "mediaType": [
+                null
+              ],
+              "hasCoordinate": [
+                true
+              ],
+              "hasGeospatialIssues": [
+                false
+              ],
+              "taxonKey": [
+                2874497
+              ],
+              "acceptedTaxonKey": [
+                2874497
+              ],
+              "kingdomKey": [
+                6
+              ],
+              "phylumKey": [
+                7707728
+              ],
+              "classKey": [
+                220
+              ],
+              "orderKey": [
+                7224005
+              ],
+              "familyKey": [
+                6634
+              ],
+              "genusKey": [
+                2874495
+              ],
+              "subgenusKey": [
+                null
+              ],
+              "speciesKey": [
+                2874497
+              ],
+              "species": [
+                "Bryonia alba"
+              ],
+              "acceptedScientificName": [
+                "Bryonia alba L."
+              ],
+              "verbatimScientificName": [
+                "Bryonia alba"
+              ],
+              "typifiedName": [
+                null
+              ],
+              "protocol": [
+                "EML"
+              ],
+              "lastParsed": [
+                "2025-03-19T03:17:25.389Z"
+              ],
+              "lastCrawled": [
+                "2025-03-18T20:04:25.208Z"
+              ],
+              "repatriated": [
+                false
+              ],
+              "relativeOrganismQuantity": [
+                null
+              ],
+              "projectId": [
+                null
+              ],
+              "isSequenced": [
+                false
+              ],
+              "gbifRegion": [
+                "EUROPE"
+              ],
+              "publishedByGbifRegion": [
+                "EUROPE"
+              ],
+              "level0Gid": [
+                "SWE"
+              ],
+              "level0Name": [
+                "Sweden"
+              ],
+              "level1Gid": [
+                "SWE.15_1"
+              ],
+              "level1Name": [
+                "Stockholm"
+              ],
+              "level2Gid": [
+                "SWE.15.18_1"
+              ],
+              "level2Name": [
+                "Stockholm"
+              ],
+              "level3Gid": [
+                null
+              ],
+              "level3Name": [
+                null
+              ],
+              "iucnRedListCategory": [
+                "NE"
+              ]
+            },
+            "columns": [
+              {
+                "id": "gbifID",
+                "name": "gbifID",
+                "type": "numeric"
+              },
+              {
+                "id": "accessRights",
+                "name": "accessRights",
+                "type": "character"
+              },
+              {
+                "id": "bibliographicCitation",
+                "name": "bibliographicCitation",
+                "type": "logical"
+              },
+              {
+                "id": "language",
+                "name": "language",
+                "type": "logical"
+              },
+              {
+                "id": "license",
+                "name": "license",
+                "type": "character"
+              },
+              {
+                "id": "modified",
+                "name": "modified",
+                "type": "character"
+              },
+              {
+                "id": "publisher",
+                "name": "publisher",
+                "type": "logical"
+              },
+              {
+                "id": "references",
+                "name": "references",
+                "type": "logical"
+              },
+              {
+                "id": "rightsHolder",
+                "name": "rightsHolder",
+                "type": "character"
+              },
+              {
+                "id": "type",
+                "name": "type",
+                "type": "logical"
+              },
+              {
+                "id": "institutionID",
+                "name": "institutionID",
+                "type": "logical"
+              },
+              {
+                "id": "collectionID",
+                "name": "collectionID",
+                "type": "logical"
+              },
+              {
+                "id": "datasetID",
+                "name": "datasetID",
+                "type": "character"
+              },
+              {
+                "id": "institutionCode",
+                "name": "institutionCode",
+                "type": "character"
+              },
+              {
+                "id": "collectionCode",
+                "name": "collectionCode",
+                "type": "character"
+              },
+              {
+                "id": "datasetName",
+                "name": "datasetName",
+                "type": "character"
+              },
+              {
+                "id": "ownerInstitutionCode",
+                "name": "ownerInstitutionCode",
+                "type": "character"
+              },
+              {
+                "id": "basisOfRecord",
+                "name": "basisOfRecord",
+                "type": "character"
+              },
+              {
+                "id": "informationWithheld",
+                "name": "informationWithheld",
+                "type": "logical"
+              },
+              {
+                "id": "dataGeneralizations",
+                "name": "dataGeneralizations",
+                "type": "logical"
+              },
+              {
+                "id": "dynamicProperties",
+                "name": "dynamicProperties",
+                "type": "logical"
+              },
+              {
+                "id": "occurrenceID",
+                "name": "occurrenceID",
+                "type": "character"
+              },
+              {
+                "id": "catalogNumber",
+                "name": "catalogNumber",
+                "type": "numeric"
+              },
+              {
+                "id": "recordNumber",
+                "name": "recordNumber",
+                "type": "logical"
+              },
+              {
+                "id": "recordedBy",
+                "name": "recordedBy",
+                "type": "character"
+              },
+              {
+                "id": "recordedByID",
+                "name": "recordedByID",
+                "type": "logical"
+              },
+              {
+                "id": "individualCount",
+                "name": "individualCount",
+                "type": "logical"
+              },
+              {
+                "id": "organismQuantity",
+                "name": "organismQuantity",
+                "type": "logical"
+              },
+              {
+                "id": "organismQuantityType",
+                "name": "organismQuantityType",
+                "type": "logical"
+              },
+              {
+                "id": "sex",
+                "name": "sex",
+                "type": "logical"
+              },
+              {
+                "id": "lifeStage",
+                "name": "lifeStage",
+                "type": "logical"
+              },
+              {
+                "id": "reproductiveCondition",
+                "name": "reproductiveCondition",
+                "type": "logical"
+              },
+              {
+                "id": "caste",
+                "name": "caste",
+                "type": "logical"
+              },
+              {
+                "id": "behavior",
+                "name": "behavior",
+                "type": "logical"
+              },
+              {
+                "id": "vitality",
+                "name": "vitality",
+                "type": "logical"
+              },
+              {
+                "id": "establishmentMeans",
+                "name": "establishmentMeans",
+                "type": "logical"
+              },
+              {
+                "id": "degreeOfEstablishment",
+                "name": "degreeOfEstablishment",
+                "type": "logical"
+              },
+              {
+                "id": "pathway",
+                "name": "pathway",
+                "type": "logical"
+              },
+              {
+                "id": "georeferenceVerificationStatus",
+                "name": "georeferenceVerificationStatus",
+                "type": "logical"
+              },
+              {
+                "id": "occurrenceStatus",
+                "name": "occurrenceStatus",
+                "type": "character"
+              },
+              {
+                "id": "preparations",
+                "name": "preparations",
+                "type": "logical"
+              },
+              {
+                "id": "disposition",
+                "name": "disposition",
+                "type": "logical"
+              },
+              {
+                "id": "associatedOccurrences",
+                "name": "associatedOccurrences",
+                "type": "logical"
+              },
+              {
+                "id": "associatedReferences",
+                "name": "associatedReferences",
+                "type": "logical"
+              },
+              {
+                "id": "associatedSequences",
+                "name": "associatedSequences",
+                "type": "logical"
+              },
+              {
+                "id": "associatedTaxa",
+                "name": "associatedTaxa",
+                "type": "logical"
+              },
+              {
+                "id": "otherCatalogNumbers",
+                "name": "otherCatalogNumbers",
+                "type": "logical"
+              },
+              {
+                "id": "occurrenceRemarks",
+                "name": "occurrenceRemarks",
+                "type": "logical"
+              },
+              {
+                "id": "organismID",
+                "name": "organismID",
+                "type": "logical"
+              },
+              {
+                "id": "organismName",
+                "name": "organismName",
+                "type": "logical"
+              },
+              {
+                "id": "organismScope",
+                "name": "organismScope",
+                "type": "logical"
+              },
+              {
+                "id": "associatedOrganisms",
+                "name": "associatedOrganisms",
+                "type": "logical"
+              },
+              {
+                "id": "previousIdentifications",
+                "name": "previousIdentifications",
+                "type": "logical"
+              },
+              {
+                "id": "organismRemarks",
+                "name": "organismRemarks",
+                "type": "logical"
+              },
+              {
+                "id": "materialEntityID",
+                "name": "materialEntityID",
+                "type": "logical"
+              },
+              {
+                "id": "materialEntityRemarks",
+                "name": "materialEntityRemarks",
+                "type": "logical"
+              },
+              {
+                "id": "verbatimLabel",
+                "name": "verbatimLabel",
+                "type": "logical"
+              },
+              {
+                "id": "materialSampleID",
+                "name": "materialSampleID",
+                "type": "logical"
+              },
+              {
+                "id": "eventID",
+                "name": "eventID",
+                "type": "character"
+              },
+              {
+                "id": "parentEventID",
+                "name": "parentEventID",
+                "type": "logical"
+              },
+              {
+                "id": "eventType",
+                "name": "eventType",
+                "type": "logical"
+              },
+              {
+                "id": "fieldNumber",
+                "name": "fieldNumber",
+                "type": "logical"
+              },
+              {
+                "id": "eventDate",
+                "name": "eventDate",
+                "type": "Date"
+              },
+              {
+                "id": "eventTime",
+                "name": "eventTime",
+                "type": "logical"
+              },
+              {
+                "id": "startDayOfYear",
+                "name": "startDayOfYear",
+                "type": "numeric"
+              },
+              {
+                "id": "endDayOfYear",
+                "name": "endDayOfYear",
+                "type": "numeric"
+              },
+              {
+                "id": "year",
+                "name": "year",
+                "type": "numeric"
+              },
+              {
+                "id": "month",
+                "name": "month",
+                "type": "numeric"
+              },
+              {
+                "id": "day",
+                "name": "day",
+                "type": "numeric"
+              },
+              {
+                "id": "verbatimEventDate",
+                "name": "verbatimEventDate",
+                "type": "Date"
+              },
+              {
+                "id": "habitat",
+                "name": "habitat",
+                "type": "logical"
+              },
+              {
+                "id": "samplingProtocol",
+                "name": "samplingProtocol",
+                "type": "logical"
+              },
+              {
+                "id": "sampleSizeValue",
+                "name": "sampleSizeValue",
+                "type": "logical"
+              },
+              {
+                "id": "sampleSizeUnit",
+                "name": "sampleSizeUnit",
+                "type": "logical"
+              },
+              {
+                "id": "samplingEffort",
+                "name": "samplingEffort",
+                "type": "logical"
+              },
+              {
+                "id": "fieldNotes",
+                "name": "fieldNotes",
+                "type": "logical"
+              },
+              {
+                "id": "eventRemarks",
+                "name": "eventRemarks",
+                "type": "logical"
+              },
+              {
+                "id": "locationID",
+                "name": "locationID",
+                "type": "character"
+              },
+              {
+                "id": "higherGeographyID",
+                "name": "higherGeographyID",
+                "type": "logical"
+              },
+              {
+                "id": "higherGeography",
+                "name": "higherGeography",
+                "type": "logical"
+              },
+              {
+                "id": "continent",
+                "name": "continent",
+                "type": "character"
+              },
+              {
+                "id": "waterBody",
+                "name": "waterBody",
+                "type": "logical"
+              },
+              {
+                "id": "islandGroup",
+                "name": "islandGroup",
+                "type": "logical"
+              },
+              {
+                "id": "island",
+                "name": "island",
+                "type": "logical"
+              },
+              {
+                "id": "countryCode",
+                "name": "countryCode",
+                "type": "character"
+              },
+              {
+                "id": "stateProvince",
+                "name": "stateProvince",
+                "type": "character"
+              },
+              {
+                "id": "county",
+                "name": "county",
+                "type": "character"
+              },
+              {
+                "id": "municipality",
+                "name": "municipality",
+                "type": "character"
+              },
+              {
+                "id": "locality",
+                "name": "locality",
+                "type": "character"
+              },
+              {
+                "id": "verbatimLocality",
+                "name": "verbatimLocality",
+                "type": "character"
+              },
+              {
+                "id": "verbatimElevation",
+                "name": "verbatimElevation",
+                "type": "logical"
+              },
+              {
+                "id": "verticalDatum",
+                "name": "verticalDatum",
+                "type": "logical"
+              },
+              {
+                "id": "verbatimDepth",
+                "name": "verbatimDepth",
+                "type": "logical"
+              },
+              {
+                "id": "minimumDistanceAboveSurfaceInMeters",
+                "name": "minimumDistanceAboveSurfaceInMeters",
+                "type": "logical"
+              },
+              {
+                "id": "maximumDistanceAboveSurfaceInMeters",
+                "name": "maximumDistanceAboveSurfaceInMeters",
+                "type": "logical"
+              },
+              {
+                "id": "locationAccordingTo",
+                "name": "locationAccordingTo",
+                "type": "logical"
+              },
+              {
+                "id": "locationRemarks",
+                "name": "locationRemarks",
+                "type": "logical"
+              },
+              {
+                "id": "decimalLatitude",
+                "name": "decimalLatitude",
+                "type": "numeric"
+              },
+              {
+                "id": "decimalLongitude",
+                "name": "decimalLongitude",
+                "type": "numeric"
+              },
+              {
+                "id": "coordinateUncertaintyInMeters",
+                "name": "coordinateUncertaintyInMeters",
+                "type": "numeric"
+              },
+              {
+                "id": "coordinatePrecision",
+                "name": "coordinatePrecision",
+                "type": "logical"
+              },
+              {
+                "id": "pointRadiusSpatialFit",
+                "name": "pointRadiusSpatialFit",
+                "type": "logical"
+              },
+              {
+                "id": "verbatimCoordinateSystem",
+                "name": "verbatimCoordinateSystem",
+                "type": "logical"
+              },
+              {
+                "id": "verbatimSRS",
+                "name": "verbatimSRS",
+                "type": "character"
+              },
+              {
+                "id": "footprintWKT",
+                "name": "footprintWKT",
+                "type": "logical"
+              },
+              {
+                "id": "footprintSRS",
+                "name": "footprintSRS",
+                "type": "logical"
+              },
+              {
+                "id": "footprintSpatialFit",
+                "name": "footprintSpatialFit",
+                "type": "logical"
+              },
+              {
+                "id": "georeferencedBy",
+                "name": "georeferencedBy",
+                "type": "logical"
+              },
+              {
+                "id": "georeferencedDate",
+                "name": "georeferencedDate",
+                "type": "logical"
+              },
+              {
+                "id": "georeferenceProtocol",
+                "name": "georeferenceProtocol",
+                "type": "logical"
+              },
+              {
+                "id": "georeferenceSources",
+                "name": "georeferenceSources",
+                "type": "logical"
+              },
+              {
+                "id": "georeferenceRemarks",
+                "name": "georeferenceRemarks",
+                "type": "logical"
+              },
+              {
+                "id": "geologicalContextID",
+                "name": "geologicalContextID",
+                "type": "logical"
+              },
+              {
+                "id": "earliestEonOrLowestEonothem",
+                "name": "earliestEonOrLowestEonothem",
+                "type": "logical"
+              },
+              {
+                "id": "latestEonOrHighestEonothem",
+                "name": "latestEonOrHighestEonothem",
+                "type": "logical"
+              },
+              {
+                "id": "earliestEraOrLowestErathem",
+                "name": "earliestEraOrLowestErathem",
+                "type": "logical"
+              },
+              {
+                "id": "latestEraOrHighestErathem",
+                "name": "latestEraOrHighestErathem",
+                "type": "logical"
+              },
+              {
+                "id": "earliestPeriodOrLowestSystem",
+                "name": "earliestPeriodOrLowestSystem",
+                "type": "logical"
+              },
+              {
+                "id": "latestPeriodOrHighestSystem",
+                "name": "latestPeriodOrHighestSystem",
+                "type": "logical"
+              },
+              {
+                "id": "earliestEpochOrLowestSeries",
+                "name": "earliestEpochOrLowestSeries",
+                "type": "logical"
+              },
+              {
+                "id": "latestEpochOrHighestSeries",
+                "name": "latestEpochOrHighestSeries",
+                "type": "logical"
+              },
+              {
+                "id": "earliestAgeOrLowestStage",
+                "name": "earliestAgeOrLowestStage",
+                "type": "logical"
+              },
+              {
+                "id": "latestAgeOrHighestStage",
+                "name": "latestAgeOrHighestStage",
+                "type": "logical"
+              },
+              {
+                "id": "lowestBiostratigraphicZone",
+                "name": "lowestBiostratigraphicZone",
+                "type": "logical"
+              },
+              {
+                "id": "highestBiostratigraphicZone",
+                "name": "highestBiostratigraphicZone",
+                "type": "logical"
+              },
+              {
+                "id": "lithostratigraphicTerms",
+                "name": "lithostratigraphicTerms",
+                "type": "logical"
+              },
+              {
+                "id": "group",
+                "name": "group",
+                "type": "logical"
+              },
+              {
+                "id": "formation",
+                "name": "formation",
+                "type": "logical"
+              },
+              {
+                "id": "member",
+                "name": "member",
+                "type": "logical"
+              },
+              {
+                "id": "bed",
+                "name": "bed",
+                "type": "logical"
+              },
+              {
+                "id": "identificationID",
+                "name": "identificationID",
+                "type": "logical"
+              },
+              {
+                "id": "verbatimIdentification",
+                "name": "verbatimIdentification",
+                "type": "logical"
+              },
+              {
+                "id": "identificationQualifier",
+                "name": "identificationQualifier",
+                "type": "logical"
+              },
+              {
+                "id": "typeStatus",
+                "name": "typeStatus",
+                "type": "logical"
+              },
+              {
+                "id": "identifiedBy",
+                "name": "identifiedBy",
+                "type": "logical"
+              },
+              {
+                "id": "identifiedByID",
+                "name": "identifiedByID",
+                "type": "logical"
+              },
+              {
+                "id": "dateIdentified",
+                "name": "dateIdentified",
+                "type": "logical"
+              },
+              {
+                "id": "identificationReferences",
+                "name": "identificationReferences",
+                "type": "logical"
+              },
+              {
+                "id": "identificationVerificationStatus",
+                "name": "identificationVerificationStatus",
+                "type": "character"
+              },
+              {
+                "id": "identificationRemarks",
+                "name": "identificationRemarks",
+                "type": "logical"
+              },
+              {
+                "id": "taxonID",
+                "name": "taxonID",
+                "type": "character"
+              },
+              {
+                "id": "scientificNameID",
+                "name": "scientificNameID",
+                "type": "logical"
+              },
+              {
+                "id": "acceptedNameUsageID",
+                "name": "acceptedNameUsageID",
+                "type": "character"
+              },
+              {
+                "id": "parentNameUsageID",
+                "name": "parentNameUsageID",
+                "type": "character"
+              },
+              {
+                "id": "originalNameUsageID",
+                "name": "originalNameUsageID",
+                "type": "logical"
+              },
+              {
+                "id": "nameAccordingToID",
+                "name": "nameAccordingToID",
+                "type": "logical"
+              },
+              {
+                "id": "namePublishedInID",
+                "name": "namePublishedInID",
+                "type": "logical"
+              },
+              {
+                "id": "taxonConceptID",
+                "name": "taxonConceptID",
+                "type": "logical"
+              },
+              {
+                "id": "scientificName",
+                "name": "scientificName",
+                "type": "character"
+              },
+              {
+                "id": "acceptedNameUsage",
+                "name": "acceptedNameUsage",
+                "type": "logical"
+              },
+              {
+                "id": "parentNameUsage",
+                "name": "parentNameUsage",
+                "type": "logical"
+              },
+              {
+                "id": "originalNameUsage",
+                "name": "originalNameUsage",
+                "type": "logical"
+              },
+              {
+                "id": "nameAccordingTo",
+                "name": "nameAccordingTo",
+                "type": "logical"
+              },
+              {
+                "id": "namePublishedIn",
+                "name": "namePublishedIn",
+                "type": "logical"
+              },
+              {
+                "id": "namePublishedInYear",
+                "name": "namePublishedInYear",
+                "type": "logical"
+              },
+              {
+                "id": "higherClassification",
+                "name": "higherClassification",
+                "type": "character"
+              },
+              {
+                "id": "kingdom",
+                "name": "kingdom",
+                "type": "character"
+              },
+              {
+                "id": "phylum",
+                "name": "phylum",
+                "type": "character"
+              },
+              {
+                "id": "class",
+                "name": "class",
+                "type": "character"
+              },
+              {
+                "id": "order",
+                "name": "order",
+                "type": "character"
+              },
+              {
+                "id": "superfamily",
+                "name": "superfamily",
+                "type": "logical"
+              },
+              {
+                "id": "family",
+                "name": "family",
+                "type": "character"
+              },
+              {
+                "id": "subfamily",
+                "name": "subfamily",
+                "type": "logical"
+              },
+              {
+                "id": "tribe",
+                "name": "tribe",
+                "type": "logical"
+              },
+              {
+                "id": "subtribe",
+                "name": "subtribe",
+                "type": "logical"
+              },
+              {
+                "id": "genus",
+                "name": "genus",
+                "type": "character"
+              },
+              {
+                "id": "genericName",
+                "name": "genericName",
+                "type": "character"
+              },
+              {
+                "id": "subgenus",
+                "name": "subgenus",
+                "type": "logical"
+              },
+              {
+                "id": "infragenericEpithet",
+                "name": "infragenericEpithet",
+                "type": "logical"
+              },
+              {
+                "id": "specificEpithet",
+                "name": "specificEpithet",
+                "type": "character"
+              },
+              {
+                "id": "infraspecificEpithet",
+                "name": "infraspecificEpithet",
+                "type": "logical"
+              },
+              {
+                "id": "cultivarEpithet",
+                "name": "cultivarEpithet",
+                "type": "logical"
+              },
+              {
+                "id": "taxonRank",
+                "name": "taxonRank",
+                "type": "character"
+              },
+              {
+                "id": "verbatimTaxonRank",
+                "name": "verbatimTaxonRank",
+                "type": "logical"
+              },
+              {
+                "id": "vernacularName",
+                "name": "vernacularName",
+                "type": "character"
+              },
+              {
+                "id": "nomenclaturalCode",
+                "name": "nomenclaturalCode",
+                "type": "logical"
+              },
+              {
+                "id": "taxonomicStatus",
+                "name": "taxonomicStatus",
+                "type": "character"
+              },
+              {
+                "id": "nomenclaturalStatus",
+                "name": "nomenclaturalStatus",
+                "type": "character"
+              },
+              {
+                "id": "taxonRemarks",
+                "name": "taxonRemarks",
+                "type": "logical"
+              },
+              {
+                "id": "datasetKey",
+                "name": "datasetKey",
+                "type": "character"
+              },
+              {
+                "id": "publishingCountry",
+                "name": "publishingCountry",
+                "type": "character"
+              },
+              {
+                "id": "lastInterpreted",
+                "name": "lastInterpreted",
+                "type": "character"
+              },
+              {
+                "id": "elevation",
+                "name": "elevation",
+                "type": "logical"
+              },
+              {
+                "id": "elevationAccuracy",
+                "name": "elevationAccuracy",
+                "type": "logical"
+              },
+              {
+                "id": "depth",
+                "name": "depth",
+                "type": "logical"
+              },
+              {
+                "id": "depthAccuracy",
+                "name": "depthAccuracy",
+                "type": "logical"
+              },
+              {
+                "id": "distanceFromCentroidInMeters",
+                "name": "distanceFromCentroidInMeters",
+                "type": "logical"
+              },
+              {
+                "id": "issue",
+                "name": "issue",
+                "type": "character"
+              },
+              {
+                "id": "mediaType",
+                "name": "mediaType",
+                "type": "logical"
+              },
+              {
+                "id": "hasCoordinate",
+                "name": "hasCoordinate",
+                "type": "logical"
+              },
+              {
+                "id": "hasGeospatialIssues",
+                "name": "hasGeospatialIssues",
+                "type": "logical"
+              },
+              {
+                "id": "taxonKey",
+                "name": "taxonKey",
+                "type": "numeric"
+              },
+              {
+                "id": "acceptedTaxonKey",
+                "name": "acceptedTaxonKey",
+                "type": "numeric"
+              },
+              {
+                "id": "kingdomKey",
+                "name": "kingdomKey",
+                "type": "numeric"
+              },
+              {
+                "id": "phylumKey",
+                "name": "phylumKey",
+                "type": "numeric"
+              },
+              {
+                "id": "classKey",
+                "name": "classKey",
+                "type": "numeric"
+              },
+              {
+                "id": "orderKey",
+                "name": "orderKey",
+                "type": "numeric"
+              },
+              {
+                "id": "familyKey",
+                "name": "familyKey",
+                "type": "numeric"
+              },
+              {
+                "id": "genusKey",
+                "name": "genusKey",
+                "type": "numeric"
+              },
+              {
+                "id": "subgenusKey",
+                "name": "subgenusKey",
+                "type": "logical"
+              },
+              {
+                "id": "speciesKey",
+                "name": "speciesKey",
+                "type": "numeric"
+              },
+              {
+                "id": "species",
+                "name": "species",
+                "type": "character"
+              },
+              {
+                "id": "acceptedScientificName",
+                "name": "acceptedScientificName",
+                "type": "character"
+              },
+              {
+                "id": "verbatimScientificName",
+                "name": "verbatimScientificName",
+                "type": "character"
+              },
+              {
+                "id": "typifiedName",
+                "name": "typifiedName",
+                "type": "logical"
+              },
+              {
+                "id": "protocol",
+                "name": "protocol",
+                "type": "character"
+              },
+              {
+                "id": "lastParsed",
+                "name": "lastParsed",
+                "type": "character"
+              },
+              {
+                "id": "lastCrawled",
+                "name": "lastCrawled",
+                "type": "character"
+              },
+              {
+                "id": "repatriated",
+                "name": "repatriated",
+                "type": "logical"
+              },
+              {
+                "id": "relativeOrganismQuantity",
+                "name": "relativeOrganismQuantity",
+                "type": "logical"
+              },
+              {
+                "id": "projectId",
+                "name": "projectId",
+                "type": "logical"
+              },
+              {
+                "id": "isSequenced",
+                "name": "isSequenced",
+                "type": "logical"
+              },
+              {
+                "id": "gbifRegion",
+                "name": "gbifRegion",
+                "type": "character"
+              },
+              {
+                "id": "publishedByGbifRegion",
+                "name": "publishedByGbifRegion",
+                "type": "character"
+              },
+              {
+                "id": "level0Gid",
+                "name": "level0Gid",
+                "type": "character"
+              },
+              {
+                "id": "level0Name",
+                "name": "level0Name",
+                "type": "character"
+              },
+              {
+                "id": "level1Gid",
+                "name": "level1Gid",
+                "type": "character"
+              },
+              {
+                "id": "level1Name",
+                "name": "level1Name",
+                "type": "character"
+              },
+              {
+                "id": "level2Gid",
+                "name": "level2Gid",
+                "type": "character"
+              },
+              {
+                "id": "level2Name",
+                "name": "level2Name",
+                "type": "character"
+              },
+              {
+                "id": "level3Gid",
+                "name": "level3Gid",
+                "type": "logical"
+              },
+              {
+                "id": "level3Name",
+                "name": "level3Name",
+                "type": "logical"
+              },
+              {
+                "id": "iucnRedListCategory",
+                "name": "iucnRedListCategory",
+                "type": "character"
+              }
+            ],
+            "resizable": true,
+            "filterable": true,
+            "striped": true,
+            "dataKey": "8e71ff6dae58d8b3530f01b87fba75b8",
+            "static": false
+          },
+          "children": [
+
+          ]
+        },
+        "class": "reactR_markup"
+      },
+      "evals": [
+
+      ],
+      "jsHooks": [
+
+      ],
+      "deps": [
+
+      ]
+    },
+    "upload-alert_area": {
+      "html": "<div class=\"alert alert-success\">\n  <i class=\"far fa-circle-check\" role=\"presentation\" aria-label=\"circle-check icon\"><\/i>\n   Upload complete. Your occurrence data (<b>bral.xlsx<\/b>) has been processed.\n<\/div>",
+      "deps": [
+        {
+          "name": "font-awesome",
+          "version": "6.5.2",
+          "src": {
+            "href": "font-awesome-6.5.2"
+          },
+          "meta": null,
+          "script": null,
+          "stylesheet": [
+            "css/all.min.css",
+            "css/v4-shims.min.css"
+          ],
+          "head": null,
+          "attachment": null,
+          "all_files": true
+        }
+      ]
+    },
+    "upload-footer_area": {
+      "html": "<button id=\"upload-close_modal\" type=\"button\" class=\"btn btn-default action-button\"><span class=\"action-label\">Continue<\/span><\/button>\n<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Close<\/button>",
+      "deps": [
+
+      ]
+    }
+  },
+  "export": {
+    "map_initialized": true,
+    "map_n_markers": 0
+  }
+}

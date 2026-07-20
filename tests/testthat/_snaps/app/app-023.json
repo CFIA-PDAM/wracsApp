@@ -1,0 +1,9 @@
+{
+  "input": {
+    "leaflet_map_groups": [
+      "Precipitation Bands",
+      "Points"
+    ],
+    "leaflet_map_zoom": 3
+  }
+}

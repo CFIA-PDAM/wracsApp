@@ -1,0 +1,16 @@
+{
+  "input": {
+    "leaflet_map_groups": [
+      "Precipitation Bands",
+      "Points"
+    ],
+    "leaflet_map_marker_mouseover": {
+      "id": "b",
+      ".nonce": 0.233138558795347,
+      "group": "Points",
+      "lat": 30,
+      "lng": 20
+    },
+    "leaflet_map_zoom": 3
+  }
+}
